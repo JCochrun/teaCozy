@@ -13,3 +13,10 @@ header {
   position: fixed;
   display: flex;
 }
+
+#mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
+}
