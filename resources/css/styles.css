@@ -10,13 +10,67 @@
 
 header {
   height: 69px;
+  width: 100%;
   position: fixed;
   display: flex;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 1;
+  opacity: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: auto 10px;
+  top: 10px;
+}
+
+/* Attempting to center all images
+.content {
+  display: flex;
+  justify-content: center;
+}
+*/
+.logo {
+  height: 50px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav span {
+  padding: 20px;
 }
 
 #mission {
   display: flex;
   width: 1200px;
   height: 700px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.mission-banner {
+  width: 1200px;
+  height: auto;
+}
+
+#featured {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.featured-teas {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tea-image {
+  width: 300px;
+  height: 200px;
 }
