@@ -1,12 +1,18 @@
 * {
   font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
   text-align: center;
-
 }
+
+body {
+  margin-top: 0px;
+}
+
+p {
+  font-size: 22px;
+  }
 
 header {
   height: 69px;
@@ -19,8 +25,7 @@ header {
   opacity: 1;
   justify-content: space-between;
   align-items: center;
-  padding: auto 10px;
-  top: 10px;
+
 }
 
 /* Attempting to center all images
@@ -42,7 +47,10 @@ nav {
 
 nav span {
   padding: 20px;
+  font-size: 22px;
 }
+
+/* First Section - MISSION - Styles */
 
 #mission {
   display: flex;
@@ -59,18 +67,71 @@ nav span {
   height: auto;
 }
 
+/* Second Section - FEATURED - Styles */
+
 #featured {
   width: 1000px;
   margin: 0 auto;
 }
 
+
+
 .featured-teas {
-  display: inline-flex;
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
+.tea-item {
+  text-align: center;
+  padding: 10px;
+  display: block;
+}
+
+.tea-item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
 .tea-image {
   width: 300px;
   height: 200px;
+}
+
+/* Third Section - LOCATIONS - Styles */
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  opacity: 1.0;
+  padding-top: 70px;
+
+}
+
+#locations h2 {
+  background-color: transparent;
+}
+
+.location-list {
+  width: 1000px;
+  justify-content: space-between;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+.location-info {
+  width: 300px;
+  opacity: 1.0 !important;
+  background-color: black;
+}
+
+.copyright {
+  text-align: left;
 }
